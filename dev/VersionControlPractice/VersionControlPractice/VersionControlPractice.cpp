@@ -5,6 +5,7 @@ int main()
 {
     Crypt crypt; // create the obj
     crypt.DisplayMessage(); // display the message
+    crypt.DisplayMenu();
 
     std::cin.get(); // pause for a keypress before closing
     return 0;
